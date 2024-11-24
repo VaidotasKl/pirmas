@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.title = "nesigauna";
-    document.getElementById("manas").innerHTML = "naujas tekstas";
+        
+        document.getElementById("manas").innerHTML = "naujas tekstas";
     // document.getElementById("removable").innerHTML = "";
 
 

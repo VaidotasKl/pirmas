@@ -1,4 +1,13 @@
-.header {
+body {
+    background: url(./Advokatas.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+textcolo .header {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -24,7 +33,7 @@ nav {
 
 a:hover {
     color: orange;
-    text-decoration: underline;
+    text-decoration: none;
     transition: color 1s, border-bottom 1s;
 }
 
@@ -160,7 +169,7 @@ a {
     text-align: start;
     text-justify: cover;
 
-   
+
 
 }
 
@@ -200,7 +209,35 @@ input {
 
 }
 
-footer {margin: 10px;}
+footer {
+    margin: 10px;
+}
 
 
+h1 {
+    color: red;
+}
 
+div {
+    border: 1px, solid, red;
+    text-align: center;
+}
+
+.susisiekime {
+    border: 1px, solid;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(247, 242, 242);
+    text-decoration-line: none;
+    border-radius: 15px;
+}
+
+.top_line {
+    display: flex;
+    padding-inline: 10px;
+
+}
+
+li {
+    text-decoration: color (white);
+}
