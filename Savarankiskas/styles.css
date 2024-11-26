@@ -27,35 +27,36 @@ nav {
 a:hover {
     color: rgb(166, 228, 245);
     text-decoration: none;
-    transition: color 1s, border-bottom 1s;
+    transition: color 1s;
 }
 
 a {
     text-decoration: none;
-}
-
-li:hover h2 {
-    color: orange;
-    transition: color 1s, border-bottom 1s;
-}
-
-
-
-.logo {
-    display: block;
-    margin-left: 10px;
-}
-
-li:hover .pict {
-    transform: rotatey(360deg);
-    transition-duration: 0.6s;
-}
-
-a {
     color: black;
 }
 
-.contact:hover {
+/* li:hover h2 {
+    color: orange;
+    transition: color 1s, border-bottom 1s;
+} */
+
+
+
+/* .logo {
+    display: block;
+    margin-left: 10px;
+} */
+
+/* li:hover .pict {
+    transform: rotatey(360deg);
+    transition-duration: 0.6s;
+} */
+
+/* a {
+    color: black;
+} */
+
+/* .contact:hover {
     background-color: orange;
     color: white;
     transition: color 1s, border-bottom 1s;
@@ -65,7 +66,6 @@ a {
 .contact {
     margin-right: 10px;
     border: 2px solid orange;
-    /* background-color: orange; */
     border-radius: 20px;
     padding: 10px 20px;
     color: orange;
@@ -74,7 +74,7 @@ a {
     transition: background-color 0.3s, color 0.3s;
 
 
-}
+} */
 
 .pagrindinis {
     display: flex;
@@ -82,9 +82,9 @@ a {
     align-items: center;
     padding: 20px;
 
-    h1 {
+    /* h1 {
         font-weight: 900;
-    }
+    } */
 }
 
 
@@ -97,7 +97,7 @@ a {
 }
 
 
-.Read {
+/* .Read {
     border: 2px solid orange;
     padding: 10px 20px;
     background-color: orange;
@@ -105,7 +105,7 @@ a {
     color: white;
     font-size: 16px;
     transition: background-color 0.1s, color 0.1s;
-}
+} */
 
 
 
@@ -143,9 +143,9 @@ a {
     align-items: center;
     /* background-color: antiquewhite; */
 
-    p {
+    /* p {
         margin: 20px;
-    }
+    } */
 }
 
 
@@ -155,9 +155,9 @@ input {
 
 }
 
-footer {
+/* footer {
     margin: 10px;
-}
+} */
 
 
 /* div {
@@ -187,8 +187,8 @@ footer {
         list-style-type: none;
         gap: 20px;
         text-decoration: none;
-            }
-       
+    }
+
 
 }
 
@@ -288,8 +288,23 @@ li {
 }
 
 .pradzia {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    height: fit-content;
+    width: fit-content;
     border: 1px, solid;
-        border-radius: 2px;
+    border-radius: 2px;
     background-color: antiquewhite;
     
-    }
+
+}
+
+.grizti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
